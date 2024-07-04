@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 // https://uibakery.io/regex-library/phone-number
 const isValidPhone = (str) =>
@@ -33,10 +33,12 @@ const fakeCart = [
 function CreateOrder() {
   // const [withPriority, setWithPriority] = useState(false);
   const cart = fakeCart;
+  console.log(cart);
+  console.log(isValidPhone);
 
   return (
     <div>
-      <h2>Ready to order? Let's go!</h2>
+      <h2>Ready to order? Lets go!</h2>
 
       <form>
         <div>
