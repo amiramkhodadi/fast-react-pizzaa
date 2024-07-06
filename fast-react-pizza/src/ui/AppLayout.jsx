@@ -8,6 +8,7 @@ function AppLayout() {
   const isLoading = navigation.state === "loading";
   return (
     <div className="layout">
+      {/* <h1 className="text-3xl font-bold underline">Hello world!</h1> */}
       {isLoading && <Loader />}
       <Header />
       <main>
